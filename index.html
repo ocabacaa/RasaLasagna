@@ -1,0 +1,357 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#251610">
+  <meta name="description" content="Rasa Lasagna — homemade lasagna dengan bahan berkualitas, saus kaya rasa, dan keju meleleh.">
+  <title>Rasa Lasagna — Layers of Happiness</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Announcement -->
+  <div class="announcement">
+    FRESHLY BAKED, ALWAYS MADE WITH LOVE
+    <span>✳</span>
+    A LITTLE HAPPINESS IN EVERY LAYER
+  </div>
+
+  <!-- Navigation -->
+  <header class="header">
+    <a href="#home" class="brand" aria-label="Rasa Lasagna Home">
+      <span class="brand-icon">R<span>.</span></span>
+      <span class="brand-text">
+        rasa
+        <small>LASAGNA</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Buka navigasi" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-links" aria-label="Navigasi utama">
+      <a href="#home">Home</a>
+      <a href="#menu">Our Menu</a>
+      <a href="#story">Our Story</a>
+      <a href="#ingredients">Why Us</a>
+    </nav>
+
+    <a href="#order" class="nav-button">
+      Order Now <span>↗</span>
+    </a>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="eyebrow">
+          <span class="eyebrow-line"></span>
+          MADE WITH HEART, BAKED TO PERFECTION
+        </div>
+
+        <h1>
+          Layers of<br>
+          <em>happiness.</em>
+        </h1>
+
+        <p class="hero-description">
+          A little cheese, a lot of love, and layers of flavor
+          in every bite. Discover your new favorite comfort food.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#menu" class="button button-primary">
+            Explore Menu <span>↗</span>
+          </a>
+
+          <a href="#story" class="story-link">
+            <span class="play-icon">▶</span>
+            Our little story
+          </a>
+        </div>
+
+        <div class="hero-proof">
+          <div class="avatar-group" aria-hidden="true">
+            <span>R</span>
+            <span>L</span>
+            <span♡>♡</span♡>
+          </div>
+          <div>
+            <strong>Made for sharing</strong>
+            <small>Good food, better moments.</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-image">
+          <img
+            src="https://images.unsplash.com/photo-1574894709920-11b28e7367e3?auto=format&fit=crop&w=1200&q=85"
+            alt="Lasagna panggang dengan saus tomat dan keju"
+          >
+        </div>
+
+        <div class="image-badge">
+          <span>✳</span>
+          <strong>FRESH FROM<br>THE OVEN</strong>
+        </div>
+
+        <div class="floating-card">
+          <span class="heart-icon">♡</span>
+          <div>
+            <strong>Made with love</strong>
+            <small>In every single layer.</small>
+          </div>
+        </div>
+
+        <span class="hero-decoration decoration-one">✳</span>
+        <span class="hero-decoration decoration-two">✦</span>
+      </div>
+
+      <div class="hero-footer-note">
+        GOOD FOOD. GOOD MOOD. <span>—</span> EST. WITH LOVE
+      </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee">
+      <div class="marquee-track">
+        <span>REAL INGREDIENTS</span><b>✳</b>
+        <span>SLOW-COOKED SAUCE</span><b>✳</b>
+        <span>EXTRA CHEESY</span><b>✳</b>
+        <span>MADE FRESH DAILY</span><b>✳</b>
+        <span>REAL INGREDIENTS</span><b>✳</b>
+        <span>SLOW-COOKED SAUCE</span><b>✳</b>
+      </div>
+    </div>
+
+    <!-- Menu Section -->
+    <section class="menu-section section-padding" id="menu">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">A LITTLE SOMETHING FOR EVERYONE</div>
+          <h2>Meet your new<br><em>comfort classic.</em></h2>
+        </div>
+
+        <p>
+          Every layer has a purpose. Every bite tells a story.
+          Find the one that feels like you.
+        </p>
+      </div>
+
+      <div class="menu-grid">
+        <article class="menu-card">
+          <div class="menu-image">
+            <img
+              src="https://images.unsplash.com/photo-1574894709920-11b28e7367e3?auto=format&fit=crop&w=850&q=85"
+              alt="Classic Beef Lasagna"
+              loading="lazy"
+            >
+            <span class="menu-tag">BEST SELLER</span>
+            <button class="add-button" data-item="Classic Beef Lasagna" aria-label="Pilih Classic Beef Lasagna">↗</button>
+          </div>
+          <div class="menu-info">
+            <div>
+              <h3>Classic Beef Lasagna</h3>
+              <p>Rich beef ragù, béchamel, mozzarella.</p>
+            </div>
+            <strong>Rp 58k</strong>
+          </div>
+        </article>
+
+        <article class="menu-card">
+          <div class="menu-image">
+            <img
+              src="https://images.unsplash.com/photo-1619895092538-128341789043?auto=format&fit=crop&w=850&q=85"
+              alt="Creamy Chicken Lasagna"
+              loading="lazy"
+            >
+            <span class="menu-tag">CREAMY FAVE</span>
+            <button class="add-button" data-item="Creamy Chicken Lasagna" aria-label="Pilih Creamy Chicken Lasagna">↗</button>
+          </div>
+          <div class="menu-info">
+            <div>
+              <h3>Creamy Chicken</h3>
+              <p>Tender chicken, creamy sauce, fresh herbs.</p>
+            </div>
+            <strong>Rp 52k</strong>
+          </div>
+        </article>
+
+        <article class="menu-card">
+          <div class="menu-image">
+            <img
+              src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=850&q=85"
+              alt="Garden Veggie Lasagna"
+              loading="lazy"
+            >
+            <span class="menu-tag">PLANT LOVER</span>
+            <button class="add-button" data-item="Garden Veggie Lasagna" aria-label="Pilih Garden Veggie Lasagna">↗</button>
+          </div>
+          <div class="menu-info">
+            <div>
+              <h3>Garden Veggie</h3>
+              <p>Garden vegetables, tomato sauce, parmesan.</p>
+            </div>
+            <strong>Rp 48k</strong>
+          </div>
+        </article>
+      </div>
+
+      <p class="menu-note">
+        * Menu dan harga merupakan contoh untuk demonstrasi website.
+      </p>
+    </section>
+
+    <!-- Story Section -->
+    <section class="story-section" id="story">
+      <div class="story-visual">
+        <img
+          src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=85"
+          alt="Hidangan hangat yang disiapkan dengan bahan segar"
+          loading="lazy"
+        >
+        <div class="story-stamp">
+          GOOD<br>FOOD<br><span>♡</span>
+        </div>
+      </div>
+
+      <div class="story-content">
+        <div class="eyebrow">MORE THAN JUST PASTA</div>
+
+        <h2>
+          Made for the<br>
+          moments that <em>matter.</em>
+        </h2>
+
+        <p>
+          We believe the best meals aren't complicated.
+          They're warm, generous, and made to be shared.
+          That's why we build every lasagna one thoughtful
+          layer at a time, with quality ingredients and a
+          whole lot of heart.
+        </p>
+
+        <a href="#ingredients" class="text-link">
+          Discover our philosophy <span>↗</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Ingredients Section -->
+    <section class="ingredients-section section-padding" id="ingredients">
+      <div class="center-heading">
+        <div class="eyebrow">THE SECRET IS NO SECRET</div>
+        <h2>Good things go<br><em>into every layer.</em></h2>
+      </div>
+
+      <div class="ingredient-grid">
+        <article class="ingredient-card">
+          <span class="ingredient-icon">✳</span>
+          <h3>Real Ingredients</h3>
+          <p>
+            Simple, quality ingredients that let every flavor shine.
+          </p>
+        </article>
+
+        <article class="ingredient-card">
+          <span class="ingredient-icon">♡</span>
+          <h3>Made with Care</h3>
+          <p>
+            Thoughtfully layered and baked until golden and bubbly.
+          </p>
+        </article>
+
+        <article class="ingredient-card">
+          <span class="ingredient-icon">⌁</span>
+          <h3>Comfort in Every Bite</h3>
+          <p>
+            Familiar flavors, generous portions, and zero fuss.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Order CTA -->
+    <section class="order-section" id="order">
+      <div class="order-content">
+        <div class="eyebrow light-eyebrow">YOUR TABLE IS WAITING</div>
+
+        <h2>
+          One bite away<br>
+          from <em>happy.</em>
+        </h2>
+
+        <p>
+          Make today a little more delicious.
+          Pick your favorite, gather your people,
+          and let the good bites begin.
+        </p>
+
+        <a
+          href="https://wa.me/6281234567890?text=Halo%20Rasa%20Lasagna%2C%20saya%20ingin%20memesan."
+          class="button button-light"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Order via WhatsApp <span>↗</span>
+        </a>
+
+        <small class="order-note">
+          Demo: ganti nomor WhatsApp dengan nomor bisnis kamu.
+        </small>
+      </div>
+
+      <div class="order-visual">
+        <div class="plate">
+          <div class="plate-inner">
+            <span>made<br>with<br><em>♡</em></span>
+          </div>
+        </div>
+
+        <span class="order-spark spark-one">✳</span>
+        <span class="order-spark spark-two">✦</span>
+        <span class="order-spark spark-three">✳</span>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="#home" class="brand">
+      <span class="brand-icon">R<span>.</span></span>
+      <span class="brand-text">
+        rasa
+        <small>LASAGNA</small>
+      </span>
+    </a>
+
+    <p>Layers of happiness, made daily.</p>
+
+    <div class="footer-links">
+      <a href="#menu">Menu</a>
+      <a href="#story">Our Story</a>
+      <a href="#order">Contact</a>
+    </div>
+
+    <small class="copyright">
+      © <span id="year">2026</span> Rasa Lasagna. A concept landing page.
+    </small>
+  </footer>
+
+  <!-- Notification -->
+  <div class="toast" role="status" aria-live="polite"></div>
+
+</body>
+</html>
